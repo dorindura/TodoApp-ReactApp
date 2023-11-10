@@ -1,0 +1,27 @@
+.primary-button {
+  padding: 10px;
+  font-family: Poppins, sans-serif;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 18px;
+  cursor: pointer;
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  font-weight: 700;
+}
+
+.error-button {
+  padding: 10px;
+  font-family: Poppins, sans-serif;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 18px;
+  cursor: pointer;
+  width: 100%;
+  background-color: #4c6e4d;
+  color: white;
+  font-weight: 700;
+}

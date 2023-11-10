@@ -1,0 +1,49 @@
+.card {
+    width: 80%;
+    min-width: 350px;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px 20px;
+    margin: 0 auto;
+    border-radius: 15px;
+  }
+  
+  .todo-container h3 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    outline: none;
+  }
+  
+  .error-message {
+    color: red;
+    border: 1px red;
+    text-align: start;
+    margin-bottom: 5px;
+  }
+  
+  .error-button {
+    padding: 10px;
+    font-family: Poppins, sans-serif;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: 18px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #4c6e4d;
+    color: white;
+    font-weight: 700;
+  }
+
+  .close-icon-edit-form {
+    cursor: pointer;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+    gap: 5px;
+  }

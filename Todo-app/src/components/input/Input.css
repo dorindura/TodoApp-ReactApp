@@ -1,0 +1,21 @@
+.primary-input {
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 5px 10px;
+  border: 1px solid #aaa;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Poppins, sans-serif;
+  color: #555;
+  width: 100%;
+}
+
+.textarea {
+  resize: none;
+}
+
+.error {
+  border: 1px solid red;
+  margin-bottom: 2px;
+}
