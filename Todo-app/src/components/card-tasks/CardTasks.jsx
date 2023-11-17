@@ -3,7 +3,6 @@ import TodoItem from "../todo-item/TodoItem";
 import Button from "../button/Button";
 import Modal from "../modal/Modal";
 import Card from "../card/Card";
-import Modal2 from "../modal2/Modal2"
 import { useState } from "react";
 import EditTodoForm from "../EditTodoForm/EditTodoForm";
 
@@ -17,7 +16,6 @@ console.log("propsCompletedCardtask", props.completed);
 
 
   const [isOpen, setIsOpen] = useState(false);
-  const [isOpen2] = useState(true);
   
     const openModal = () => {
         setIsOpen(true);
@@ -52,8 +50,6 @@ console.log("propsChecked", props.checked);
             }).map((item, index) => (  
               item.isEditing ? 
               (
-          // <Modal onClose={closeModal} isOpen={isOpen}>
-          // <Modal2 onClose={closeModal} isOpen2={isOpen2}>
             <EditTodoForm
               // enterEditMode={props.enterEditMode}
               updateTodo={props.updateTodo}
@@ -75,8 +71,6 @@ console.log("propsChecked", props.checked);
               closeTodo={props.closeTodo}
               handleIsEditing={props.handleIsEditing}
             />
-            // </Modal2>
-          // </Modal>
                 ) : (
             <TodoItem
              checkboxHandler={props.checkboxHandler}
@@ -117,8 +111,6 @@ console.log("propsChecked", props.checked);
             }).map((item, index) => (
               item.isEditing ? 
               (
-          // <Modal onClose={closeModal} isOpen={isOpen}>
-          // <Modal2 onClose={closeModal} isOpen2={isOpen2}>
             <EditTodoForm
               // enterEditMode={props.enterEditMode}
               updateTodo={props.updateTodo}
